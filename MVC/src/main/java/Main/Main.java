@@ -6,7 +6,7 @@ package Main;
 
 import MVC.Controlador;
 import MVC.Modelo;
-import MVC.PanelPrincipal;
+import MVC.PantallaPago;
 
 /**
  *
@@ -17,6 +17,6 @@ public class Main {
     public static void main(String[] args) {
         Modelo modelo = new Modelo();
         Controlador control = new Controlador(modelo);
-        PanelPrincipal ventana = new PanelPrincipal(control, modelo);
+        PantallaPago ventana = new PantallaPago(control, modelo);
     }
 }
